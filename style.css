@@ -8,11 +8,13 @@ body {
   background-color: rgb(233,  231,  231);
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .vertical-menu {
   text-align: center;
-  margin-top: 100px;
+  padding-top: 100px;
 }
 
 .vertical-menu a {
@@ -30,4 +32,22 @@ body {
 
 .vertical-menu a:active {
   background-color: white;
+}
+
+footer {
+  color: white;
+  width: 100vw;
+  height: 70px;
+  background-color: rgb(28, 28, 29);
+  margin-top: auto;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer ul li {
+  list-style: none;
+  font-size: small;
 }
