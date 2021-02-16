@@ -3,3 +3,31 @@ body {
   margin: 0;
   padding: 0;
 }
+
+body {
+  background-color: rgb(233,  231,  231);
+  width: 100vw;
+  height: 100vh;
+}
+
+.vertical-menu {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.vertical-menu a {
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 50px;
+}
+
+.vertical-menu a:hover {
+  background-color: rgb(233, 233, 233);
+}
+
+.vertical-menu a:active {
+  background-color: white;
+}
