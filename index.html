@@ -6,15 +6,30 @@
     <meta name="viewport" content="width='device-width', initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="main.js"></script>
-    <title>Web Project</title>
+    <title>Image Gallery</title>
 </head>
 
 <body>
-    <div class="vertical-menu">
-        <a href="index.html">Start</a>
-        <a href="about.html">About me</a>
-        <a href="#">Login</a>
+    <header>
+        <nav id="menu" class="home-page">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>
+            Welcome to my image gallery
+        </h1>
+        <p>Here you can find pictures of many things</p>
+        <div id="search-container">
+            <input type="text" name="search-bar" id="search-bar" placeholder="Search for images">
+            <input type="button" value="search" id="search-button">
+        </div>
     </div>
+
     <footer>
         <ul>
             <li>

@@ -4,8 +4,10 @@
 
 Started on the about me page
 
+Changed the home page
+
 ## 2021-02-16 kl 14:00
 
 Started the initial settup
 
-Started working on the landing page
+Started working on the home page

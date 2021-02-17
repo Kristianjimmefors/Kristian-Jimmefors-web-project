@@ -12,20 +12,6 @@ body {
   flex-direction: column;
 }
 
-.vertical-menu {
-  text-align: center;
-  padding-top: 100px;
-}
-
-.vertical-menu a {
-  color: whitesmoke;
-  display: block;
-  padding: 12px;
-  text-decoration: none;
-  text-align: center;
-  font-size: 50px;
-}
-
 header {
   color: whitesmoke;
   width: 100vw;
@@ -80,4 +66,25 @@ footer ul {
   margin: auto;
   margin-top: 25px;
   padding: 10px;
+}
+
+#search-bar {
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+#search-button {
+  max-width: 100px;
+}
+
+#search-container {
+  width: 80vw;
+}
+
+.container {
+  width: 80vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: whitesmoke;
 }
