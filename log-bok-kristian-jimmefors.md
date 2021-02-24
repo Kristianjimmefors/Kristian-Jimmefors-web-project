@@ -2,6 +2,8 @@
 
 ## 2021-02-24 kl 11:00
 
+Added some mobile responstivity
+
 Finished adding styling to all the pages
 
 ## 2021-02-23 kl 11:30
