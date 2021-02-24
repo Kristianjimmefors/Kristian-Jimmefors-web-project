@@ -5,22 +5,26 @@ body {
 }
 
 body {
-  background-color: rgba(59, 59, 59, 0.918);
-  width: 100vw;
+  background-image: url(images/oldPaper.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: rgba(235, 233, 233, 0.918);
+  width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: "Neucha", cursive;
 }
 
 header {
-  color: whitesmoke;
-  width: 100vw;
+  color: black;
+  width: 100%;
   height: 70px;
-  background-color: rgb(59, 59, 59);
 }
 
 #menu {
-  padding-right: 20px;
+  padding-right: 80px;
 }
 #menu ul {
   list-style-type: none;
@@ -30,24 +34,19 @@ header {
   display: inline-block;
 }
 #menu a {
-  color: whitesmoke;
+  color: black;
   text-decoration: none;
   padding-top: 15px;
   padding-left: 20px;
-  font-size: 15px;
+  font-size: 18px;
+  font-weight: 800;
 }
 
 footer {
-  color: whitesmoke;
-  width: 100vw;
+  color: black;
+  width: 100%;
   height: 70px;
-  background-color: rgb(59, 59, 59);
   margin-top: auto;
-}
-
-footer a {
-  color: whitesmoke;
-  text-decoration: none;
 }
 
 footer ul {
@@ -56,10 +55,11 @@ footer ul {
   padding-left: 5px;
   padding-top: 2%;
   margin-bottom: 5px;
+  font-weight: 700;
 }
 
 #about {
-  color: whitesmoke;
+  color: black;
   text-align: center;
   padding-top: 50px;
   max-width: 80vw;
@@ -68,23 +68,62 @@ footer ul {
   padding: 10px;
 }
 
-#search-bar {
-  max-width: 500px;
-  border-radius: 5px;
-}
-
-#search-button {
-  max-width: 100px;
-}
-
-#search-container {
-  width: 80vw;
+#about p {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 .container {
-  width: 80vw;
+  width: 75vw;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  color: whitesmoke;
+  color: rgb(14, 13, 13);
+}
+
+.container p {
+  font-size: larger;
+  font-weight: 600;
+}
+
+#quote-button {
+  cursor: pointer;
+  display: inline-block;
+  background-image: url(images/oldPaper.jpg);
+  border-radius: 0px;
+  border: 1px solid rgb(34, 34, 34);
+  padding: 8px 25px 8px 25px;
+  color: rgb(19, 18, 18);
+  font-size: 17px;
+  font-family: "Neucha", cursive;
+  font-weight: 700;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #menu {
+    padding-right: 40px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #menu {
+    padding-right: 50px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #menu {
+    padding-right: 60px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #menu {
+    padding-right: 80px;
+  }
 }

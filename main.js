@@ -19,7 +19,7 @@ fetch("https://the-one-api.dev/v2/character", {
 
 function getMovieQuotes() {
     
-  fetch("https://the-one-api.dev/v2/quote?limit=100", {
+  fetch("https://the-one-api.dev/v2/quote?", {
     method: "GET",
     headers: {
       Authorization: "Bearer " + "sqhij0G-eoz3d5CGuBe9",
